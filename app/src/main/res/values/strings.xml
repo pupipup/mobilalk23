@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Mobilal</string>
+
+    <string-array name="shopping_item_names">
+        <item>GTX 1080</item>
+        <item>RTX 2060</item>
+        <item>RTX 2080</item>
+        <item>RTX 3060</item>
+        <item>RTX 3070Ti</item>
+        <item>RTX 3090</item>
+        <item>RTX 4080</item>
+        <item>RTX 4090</item>
+
+    </string-array>
+
+    <string-array name="shopping_item_desc">
+        <item>Ez egy okos telefon!</item>
+        <item>Ez egy tablet!</item>
+        <item>Ez egy gamer pc!</item>
+        <item>Ez egy OLED TV!</item>
+        <item>Ez egy kerékpár!</item>
+        <item>Ez egy lego!</item>
+        <item>Ez egy jelmez!</item>
+        <item>Ezek sport eszközök!</item>
+
+    </string-array>
+
+    <array name="shopping_item_rates">
+        <item>3.5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>1.5</item>
+        <item>5</item>
+        <item>3</item>
+        <item>4.5</item>
+        <item>4.5</item>
+
+    </array>
+
+    <array name="shopping_item_images">
+        <item>@drawable/a1080</item>
+        <item>@drawable/a2060</item>
+        <item>@drawable/a2080</item>
+        <item>@drawable/a3060</item>
+        <item>@drawable/a3070ti</item>
+        <item>@drawable/a3090</item>
+        <item>@drawable/a4080</item>
+        <item>@drawable/a4090</item>
+    </array>
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".RegisterActivity">
+
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/itemTitle"
+            style="TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemImage"
+            android:layout_marginTop="7dp"
+            android:padding="8dp"
+            android:text="leírás"
+            android:textColor="?android:textColorSecondary" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/itemTitle"
+        android:layout_marginTop="4dp"
+        android:isIndicator="true"
+        android:numStars="0"
+        android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/subTitle"
+            style="TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratingBar"
+            android:layout_marginTop="4dp"
+            android:padding="8dp"
+            android:text="news" />
+
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@id/subTitle"
+         android:layout_centerHorizontal="true">
+
+         <Button
+             android:id="@+id/add_to_cart"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="5dp"
+             android:text="Összehasonlítás" />
+
+         <Button
+             android:id="@+id/delete"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginStart="5dp"
+             android:layout_marginTop="5dp"
+             android:layout_marginEnd="5dp"
+             android:layout_marginBottom="5dp"
+             android:text="Törlés" />
+     </LinearLayout>
+    </RelativeLayout>
